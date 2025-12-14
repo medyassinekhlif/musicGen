@@ -1,0 +1,29 @@
+{
+  "training_samples": 80000,
+  "test_samples": 20000,
+  "velocity": {
+    "train_r2": 0.3324718322995299,
+    "test_r2": 0.18819293638846302,
+    "train_mae": 12.08685868023485,
+    "test_mae": 13.244838270646266,
+    "train_rmse": 14.983778323329854,
+    "test_rmse": 16.47228415180026
+  },
+  "duration": {
+    "train_r2": 0.9999268543796241,
+    "test_r2": 0.9842039116571467,
+    "train_mae": 0.040130134253517545,
+    "test_mae": 0.4049158523052324,
+    "train_rmse": 2.7049563338119023,
+    "test_rmse": 40.56042716333219
+  },
+  "features": [
+    "pitch",
+    "pitch_interval",
+    "prev_pitch",
+    "next_pitch",
+    "seq_pos",
+    "local_density",
+    "duration"
+  ]
+}

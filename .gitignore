@@ -1,0 +1,78 @@
+# JUCE should be cloned separately from:
+# https://github.com/juce-framework/JUCE
+JUCE/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# ML Models (too large for git)
+*.pkl
+models.pkl
+
+# Dataset
+maestro_data/
+maestro.zip
+
+# Build Outputs
+build/
+bin/
+x64/
+Release/
+Debug/
+*.exe
+*.dll
+*.o
+*.obj
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# IDE Files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# Generated Audio/MIDI Files
+output/*.mid
+output/*.wav
+
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+desktop.ini
+
+# CMake Generated Files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+Makefile
+cmake-build-*/
+
+# JUCE Build Artifacts
+JuceLibraryCode/
+*_artefacts/
+Builds/
+
+# Keep output folder but not its contents
+!output/.gitkeep
+!presets/.gitkeep
