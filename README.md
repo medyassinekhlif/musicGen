@@ -125,7 +125,7 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
 
-⚠️ **Attention** : Le scaler est **fit uniquement sur le train set** pour éviter le data leakage.
+**Attention** : Le scaler est **fit uniquement sur le train set** pour éviter le data leakage.
 
 ---
 
