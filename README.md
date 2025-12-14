@@ -494,7 +494,7 @@ def predict_ml_params(notes, rf_vel, rf_dur, scaler):
 Le système génère automatiquement dans **6 styles** :
 
 | Genre | Tempo | Gamme | Instruments | Caractéristiques |
-|-------|-------|-------|-------------|------------------|
+|-------|-------|---------------|-------------|------------------|
 | **Classique** | 120 BPM | Do Majeur | Piano | Pas conjoints, phrasé lyrique |
 | **Jazz** | 140 BPM | Blues | Vibraphone, Basse | Chromatismes, septièmes |
 | **Arabe** | 90 BPM | Maqam Rast | Flûte, Violoncelle | Ornements, quartes/quintes |
