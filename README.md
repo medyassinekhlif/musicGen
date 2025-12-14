@@ -347,26 +347,7 @@ Le système intègre une fonctionnalité optionnelle de **rendu audio haute qual
 
 #### Presets Disponibles dans le Projet
 
-Le répertoire `/presets` contient **16 presets VST** pré-configurés pour différents styles musicaux :
-
-| Preset | Instrument | Style Musical | Utilisation |
-|--------|-----------|---------------|-------------|
-| `autographgrandpiano.vstpreset` | Piano à queue | Classique, Jazz | Mélodie principale |
-| `glassgrandpiano.vstpreset` | Piano cristallin | Classique | Tonalité claire et brillante |
-| `softpiano.vstpreset` | Piano doux | Ambiant, Ballade | Accompagnement délicat |
-| `pianopad.vstpreset` | Piano pad | Électronique | Textures atmosphériques |
-| `celloCmelancholy.vstpreset` | Violoncelle | Classique, Arabe | Mélodie expressive |
-| `ensemblestrings.vstpreset` | Ensemble cordes | Orchestral | Accords harmoniques riches |
-| `swellsensemble.vstpreset` | Cordes crescendo | Cinématique | Build-ups dramatiques |
-| `swells.vstpreset` | Nappes synthétiques | Électronique | Ambiances progressives |
-| `pad004.vstpreset` | Pad ambiant | Électronique | Fondations harmoniques |
-| `overcloudsambientguitars.vstpreset` | Guitares ambiantes | Rock, Ambiant | Textures aériennes |
-| `softplucks.vstpreset` | Pizzicatos doux | Électronique | Rythmes légers |
-| `decay.vstpreset` | Sons décroissants | Expérimental | Effets sonores |
-| `lonelyexistenceofamarsrover.vstpreset` | Paysage sonore | Ambiant | Atmosphères spatiales |
-| `wrapfracturevoices.vstpreset` | Voix traitées | Électronique | Choeurs synthétiques |
-| `vintagedrums1975kit.vstpreset` | Batterie vintage | Rock, Blues | Rythmes organiques |
-| `vintagedrumsanimalkit.vstpreset` | Batterie alternative | Expérimental | Percussions créatives |
+Le répertoire `/presets` contient **16 presets VST** pré-configurés pour différents styles musicaux, offrant une variété d'instruments acoustiques et électroniques adaptés à chaque genre musical.
 
 #### Pipeline de Rendu Audio (C++ avec JUCE)
 
