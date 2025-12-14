@@ -20,6 +20,9 @@ models.pkl
 maestro_data/
 maestro.zip
 
+# VST Presets (user-specific, large binary files)
+presets/
+
 # Build Outputs
 build/
 bin/
