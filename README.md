@@ -1,4 +1,4 @@
-# Génération Automatique de Musique MIDI par Machine Learning
+# Génération de Musique par Machine Learning
 
 ---
 
