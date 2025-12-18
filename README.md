@@ -77,6 +77,8 @@ def extract_midi_features(midi_path):
                     })
 ```
 
+![Orchestration](orchestration.gif)
+
 ### 2.3 Nettoyage et Filtrage
 
 **Critères de qualité appliqués** :
@@ -724,6 +726,8 @@ for genre in ['classical', 'jazz', 'arabic', 'rock', 'electronic', 'blues']:
 ---
 
 *Ce projet démontre comment le Machine Learning peut assister la création artistique tout en respectant l'expressivité musicale. Les modèles présentés constituent une base solide pour des développements futurs vers une IA musicale plus avancée.*
+
+
 
 
 
