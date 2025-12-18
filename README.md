@@ -1,3 +1,8 @@
+- [Génération de Musique par Machine Learning](#génération-de-musique-par-machine-learning)
+- [Documentation Technique : Databricks + Azure Blob Storage pour Fichiers Audio](#documentation-technique--databricks--azure-blob-storage-pour-fichiers-audio)
+
+---
+
 # Génération de Musique par Machine Learning
 
 ---
@@ -733,6 +738,7 @@ for genre in ['classical', 'jazz', 'arabic', 'rock', 'electronic', 'blues']:
 
 # Documentation Technique : Databricks + Azure Blob Storage pour Fichiers Audio
 
+---
 ## 1. Architecture du Système
 
 ### 1.1 Vue d'ensemble
@@ -797,7 +803,7 @@ az storage account keys list \
 ```
 
 ## 4. Configuration Databricks
-
+<!-- 
 ### 4.1 Méthode 1 : Montage avec Access Key
 
 ```python
@@ -867,9 +873,9 @@ if not any(mount.mountPoint == mount_point for mount in dbutils.fs.mounts()):
         mount_point = mount_point,
         extra_configs = configs
     )
-```
+``` -->
 
-### 4.4 Utilisation d'Azure Key Vault (Meilleure pratique)
+### Utilisation d'Azure Key Vault (Meilleure pratique)
 
 ```python
 # 1. Créer un secret scope dans Databricks
@@ -1241,3 +1247,4 @@ spark.conf.set("spark.driver.memory", "8g")
 - [Librosa Documentation](https://librosa.org/doc/latest/index.html)
 - [Delta Lake Documentation](https://docs.delta.io/)
 
+![Orchestration](orchestration.gif)

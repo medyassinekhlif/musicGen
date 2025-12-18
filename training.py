@@ -1,14 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Maestro ML MIDI - Entraînement + Export Modèles
 À lancer une fois sur Colab pour générer les fichiers .pkl
 """
 
-print("="*70)
 print("Entraînement Maestro + Export Modèles")
-print("="*70 + "\n")
-
 # Step 1: Installations
 print("[1/7] Installation des dépendances...\n")
 import subprocess
