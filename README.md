@@ -319,7 +319,7 @@ def predict_ml_params(notes, rf_vel, rf_dur, scaler):
 
 ### 6.5 Audio Rendering with Spitfire LABS
 
-<img src="assets/labs.png" alt="Spitfire LABS" width="350" align="right">
+<img src="assets/labs.png" alt="Spitfire LABS" width="200" align="right">
 
 Spitfire LABS is a free, high-quality collection of sampled acoustic instruments (VST) used for realistic rendering of MIDI compositions.
 
