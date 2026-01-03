@@ -251,7 +251,7 @@ def compose_genre(genre_key, num_bars=8, output_file=None):
     genre = GENRES[genre_key]
     
     if output_file is None:
-        output_file = f'output/ai_composition_{genre_key}.mid'
+        output_file = f'output/{genre_key}.mid'
     
     print(f"\nGenerating: {genre['name']}")
     
