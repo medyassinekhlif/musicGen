@@ -28,16 +28,6 @@ GENRES = {
         'melody_steps': [-4, -2, -1, 0, 1, 2, 4],
         'step_probs': [0.10, 0.15, 0.20, 0.10, 0.20, 0.15, 0.10],
     },
-    'arabic': {
-        'name': 'Arabic Maqam Rast',
-        'tempo': 90,
-        'scale': [60, 62, 64, 65, 67, 69, 71, 72],  # Maqam Rast
-        'chord_type': 'triad',
-        'program': {'melody': 73, 'chords': 0, 'bass': 42},  # Flute + Piano + Cello
-        'melody_range': (60, 79),
-        'melody_steps': [-3, -2, -1, 0, 1, 2, 3],
-        'step_probs': [0.10, 0.15, 0.25, 0.10, 0.25, 0.15, 0.10],
-    },
     'rock': {
         'name': 'Rock',
         'tempo': 130,
@@ -405,7 +395,7 @@ def main():
     print()
     
     try:
-        choice = input("Choose genre (1-7) or Enter for all: ").strip()
+        choice = input("Choose genre (1-6) or Enter for all: ").strip()
         
         # Ask for duration in bars
         bars_input = input("Number of bars (default: 8, max: 32): ").strip()
