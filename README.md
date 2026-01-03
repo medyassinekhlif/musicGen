@@ -330,9 +330,11 @@ Spitfire LABS is a free, high-quality collection of sampled acoustic instruments
 - **Rendering Engine**: C++ JUCE-based (`MidiRenderer.exe`)
 - **Presets**: 16 VST presets in `/presets` for various instruments
 
-JUCE is a cross-platform C++ framework for audio applications and plugin development; it simplifies building low-latency audio engines and VST/AU plugins.
 
 <img src="assets/juce.png" alt="JUCE" width="150" align="right">
+
+JUCE is a cross-platform C++ framework for audio applications and plugin development; it simplifies building low-latency audio engines and VST/AU plugins.
+
 
 **Rendering Process**:
 ```bash
