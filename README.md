@@ -135,6 +135,10 @@ X_test_scaled = scaler.transform(X_test)
 
 Random Forest is an ensemble learning method that builds many decision trees and averages their predictions to reduce variance and handle non-linear relationships; it's robust and gives useful feature-importance scores.
 
+**Two Random Forests Architecture:**
+
+<img src="assets/machine-learning.png" alt="Machine Learning Architecture - Two Random Forests" width="600" style="display: block; margin: 20px 0;">
+
 <img src="assets/random forest.png" alt="Random Forest" width="250" align="right">
 
 ```python
@@ -205,6 +209,10 @@ Test R² = 0.1882 (18.8%)
 Test MAE = 13.24 MIDI units (~10% error)
 Test RMSE = 17.45 MIDI units
 ```
+
+**Velocity Prediction based on Note Features:**
+
+<img src="assets/trees.png" alt="Velocity Prediction based on Note Features" width="600" style="display: block; margin: 20px 0;">
 
 **Why Low Performance?**
 

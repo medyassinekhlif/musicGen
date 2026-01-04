@@ -236,6 +236,11 @@ def create_midi_from_composition(melody, chords, bass, tempo=120, output_file='c
         bass_track.append(Message('note_off', note=pitch, velocity=0, time=1920))
         time = 0
     
+    # Create output directory if it doesn't exist
+    output_dir = os.path.dirname(output_file)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
     midi.save(output_file)
     print(f"\nSaved: {output_file}\n")
 
