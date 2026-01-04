@@ -139,7 +139,6 @@ Random Forest is an ensemble learning method that builds many decision trees and
 
 <img src="assets/machine-learning.png" alt="Machine Learning Architecture - Two Random Forests" width="600" style="display: block; margin: 20px 0;">
 
-<img src="assets/random forest.png" alt="Random Forest" width="250" align="right">
 
 ```python
 rf_velocity = RandomForestRegressor(
